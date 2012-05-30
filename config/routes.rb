@@ -1,11 +1,15 @@
 HartlTutorial::Application.routes.draw do
   
+  get "users/new"
+
   root to: 'pages#home'
   
-  match '/contact', to: 'pages#contact'
-  match '/about', to: 'pages#about'
-  match '/help', to: 'pages#help'
+  match '/contact',     to: 'pages#contact'
+  match '/about',       to: 'pages#about'
+  match '/help',        to: 'pages#help'
   match '/advertising', to: 'pages#advertising'
+  match '/signup',      to: 'users#new'
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
