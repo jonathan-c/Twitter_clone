@@ -12,6 +12,8 @@ class PagesController < ApplicationController
     @title = "About"
   end
   
-  #def advertising
-  #end
+  def advertising
+    @title = "Advertising"
+    #@price = "$154"
+  end
 end
