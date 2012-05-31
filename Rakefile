@@ -4,4 +4,6 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+#require 'annotate/tasks'
+
 HartlTutorial::Application.load_tasks
