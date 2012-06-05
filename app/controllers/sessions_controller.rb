@@ -1,5 +1,4 @@
 class SessionsController < ApplicationController
-  require 'SessionsHelper'
   
   def new
     @title = "Sign in"
@@ -19,6 +18,7 @@ class SessionsController < ApplicationController
   end
   
   def destroy
-    
+    sign_out
+    redirect_to root_path
   end
 end
