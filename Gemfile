@@ -2,12 +2,13 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 gem 'gravatar_image_tag'
-#gem 'factory_girl'
+gem 'will_paginate', '3.0.3'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.10.0'
 	gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
+	gem 'faker', '1.0.1'
 end
 
 # Gems used only for assets and not required
