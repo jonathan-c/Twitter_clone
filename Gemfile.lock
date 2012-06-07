@@ -154,6 +154,7 @@ DEPENDENCIES
   annotate!
   capybara (= 1.1.2)
   coffee-rails (= 3.2.2)
+  execjs
   faker (= 1.0.1)
   gravatar_image_tag
   jquery-rails (= 2.0.0)
