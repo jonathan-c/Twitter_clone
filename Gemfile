@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.3'
 gem 'gravatar_image_tag'
 gem 'will_paginate', '3.0.3'
-gem 'execjs'
+# gem 'execjs'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -28,5 +28,5 @@ end
 
 group :production do
   gem 'pg', '0.12.2'
-	# gem 'therubyracer-heroku'
+	gem 'therubyracer-heroku', '0.8.1.pre3'
 end
